@@ -10,12 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 logging.basicConfig(level=logging.INFO)
 
 capabilities = {
-    'platformName': 'Android',
-    'platformVersion': '14',
-    'automationName': 'UiAutomator2',
-    'deviceName': 'RFCT80P643Y',
-    'appPackage': 'vn.binhduong.nongnghiepphugiao',
-    'appActivity': 'vn.binhduong.nongnghiepphugiao.MainActivity'
+    
 }
 
 appium_server_url = 'http://localhost:4723/wd/hub'
